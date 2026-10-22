@@ -1,0 +1,19 @@
+# macOS puts one of these in every folder
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter autosaves
+.ipynb_checkpoints/
+
+# Large or generated ML files
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+wandb/
+runs/
